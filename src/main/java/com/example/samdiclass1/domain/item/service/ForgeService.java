@@ -23,6 +23,8 @@ public class ForgeService {
             throw new IllegalArgumentException(request.name() + " 이름의 아이템이 이미 있습니다.");
         }
 
+        // test
+
         // 공격력이 1보다 작을 때
         if (request.attackPower() <= 0) {
             throw new IllegalArgumentException("공격력은 1 이상이어야 합니다.");
